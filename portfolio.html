@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Saira Stencil One", sans-serif; 
+        }
+
+        body {
+            background: #0a0a0f;
+            color: white;
+            overflow-x: hidden;
+            margin: 0;
+        }
+
+        /* Navbar */
+        nav {
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #9ad1ff;
+        }
+
+        /* Sections */
+        section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+        }
+
+        /* Moon */
+        .moon {
+            position: fixed;
+            top: 50%;
+            right: -150px;
+            transform: translateY(-50%) rotate(0deg);
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            transition: transform 0.1s linear;
+        }
+
+        .moon1 {
+            border-radius: 1000px;
+            position: relative;
+            top: 0px;
+            left: -10px;
+            height: 300px;
+            width: 320px;
+        }
+
+        /* Earth */
+        .earth {
+            position: fixed;
+            top: 50%;
+            left: -150px;
+            transform: translateY(-50%) rotate(0deg);
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            /* background: radial-gradient(circle at 30% 30%, #fff, #aaa); */
+
+            transition: transform 0.1s linear;
+        }
+
+        .earth1 {
+            border-radius: 10000px;
+            position: relative;
+            top: -100px;
+            left: -100px;
+            height: 500px;
+            width: 500px;
+        }
+
+        /* Image */
+        .profile-img {
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            position: relative;
+            top: -18px;
+            left: 100px;
+        }
+
+        p {
+            font-family: "Red Hat Display", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: "VT323", monospace;
+        }
+
+        /* Stars Background Setup */
+        .stars-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            overflow: hidden;
+            /* Keeps stars inside the window */
+            background: transparent;
+        }
+
+        .star-layer {
+            position: absolute;
+            background: transparent;
+            /* Infinite upward movement */
+            animation: moveStars linear infinite;
+        }
+
+        /* Keyframe for continuous scrolling */
+        @keyframes moveStars {
+            from {
+                transform: translateY(0px);
+            }
+
+            to {
+                transform: translateY(-2000px);
+            }
+
+            /* Translates up by the exact height of the starfield */
+
+        }
+
+        .box {
+            margin: 40px;
+            padding: 30px;
+           font-size: 18px;
+            height: 58vh;
+            width: 53vw;
+            border-radius: 16%;
+            animation: float-animation 3s cubic-bezier(0.16, 1.53, 0.58, 1) forwards;
+        }
+        @keyframes float-animation {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-15px); 
+    
+    box-shadow:  10px 10px 15px skyblue;
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px); 
+    box-shadow: 7px 10px 20px 0px skyblue;
+    opacity: 1;
+  }
+}
+ 
+        
+    
+.box4{
+    height:  188px;
+    width: 592px;
+    margin: 34px;
+    padding: 42px;
+    padding-left: 4px;
+    border-radius: 16%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    left: -300;
+    top: 19;
+     animation:float-animation 3s cubic-bezier(0.16, 1.53, 0.58, 1) forwards ;
+     
+        }
+        @keyframes float-animation {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-15px); 
+    
+    box-shadow:  10px 10px 15px skyblue;
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px); 
+    box-shadow: 7px 10px 20px 0px skyblue;
+    opacity: 1;
+  }
+}
+  
+.box5{
+         margin: 45px;
+            padding: 40px;
+           font-size: 18px;
+            height: 27vh;
+            width: 34vw;
+             position: relative; 
+           
+            border-radius: 16%;
+            animation:float-animation 3s cubic-bezier(0.16, 1.53, 0.58, 1) forwards;
+        }
+        @keyframes float-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(-15px); 
+    
+    box-shadow:  10px 10px 15px skyblue;
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px); 
+    box-shadow: 7px 10px 20px 0px skyblue;
+    opacity: 1;
+  }
+}
+ .end{ 
+    position:relative;
+    left: 80px;
+    gap: 20px;
+} 
+     </style>
+</head>
+
+<body>
+    <div class="stars-container">
+        <div id="stars-fast" class="star-layer"></div>
+        <div id="stars-slow" class="star-layer"></div>
+    </div>
+
+    <nav>
+        <h2>TONY STARK</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme"></a>About Me</li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#social">Social</a></li>
+        </ul>
+    </nav>
+
+    <div class="moon" id="moon">
+        <img class="moon1" src="c:\Users\REMI\Downloads\330px-FullMoon2010-removebg-preview.png" alt="moon">
+    </div>
+
+    <div class="earth" id="earth">
+        <img class="earth1"
+            src="c:\Users\REMI\Downloads\960px-Meteosat-12-fci-march-equinox-2025-noon-removebg-preview.png"
+            alt="earth">
+    </div>
+
+    <section id="home">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLKAXvz3uOT5V2rTqgtcDQHzaQirWcs9grA&s"
+                class="profile-img">
+            <div> Hello, I'm a Developer </div>
+            
+    </section>
+
+    <section id="aboutme">About Me
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum quia consectetur odit delectus earum fugit unde libero officiis odio commodi reprehenderit accusamus omnis, recusandae in a tempora similique asperiores incidunt beatae qui? Ut fugit sit facilis eligendi aliquam. Suscipit id necessitatibus repudiandae placeat in.
+            <br>
+            <p><u>Education</u></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolor placeat eaque a, optio voluptates similique magnam repellat, non qui, dicta officia quos debitis ipsum voluptatum doloremque porro dolores molestiae reprehenderit officiis temporibus quam voluptas quae! Aperiam tenetur nobis totam. Molestiae magnam ipsa illo omnis?</div>
+           
+    </section>
+    <section id="skills">Skills
+        <div class="box4">
+            <div ><img src="c:\Users\REMI\Downloads\icone-html-orange.png" alt="html" height="100px" width="150px"></div>
+            <div><img src="c:\Users\REMI\Downloads\CSS-Logo-2011.png" alt="css"height="100px" width="200px"></div>
+            <div><img src="c:\Users\REMI\Downloads\img_js.png" alt="java script" height="100px" width="150px"></div>
+        </div>
+                               
+        
+
+
+
+
+
+    </section>
+    <section id="projects">Projects
+        <div class="box">
+            <p>1. ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptatum perspiciatis? Blanditiis sit
+                quod facere magnam labore esse quibusdam necessitatibus nisi quos excepturi?</p><br>
+                <p> 2.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic sed repellat, perspiciatis sit aperiam, laudantium, sunt assumenda iure quia nulla quo sapiente excepturi.</p>
+                  <br><p>3.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus laudantium architecto delectus consequuntur doloremque amet impedit reprehenderit harum suscipit, recusandae minus reiciendis mollitia.</p>
+            </div>
+    </section>
+    <section id="social">Social Links
+
+        <div class="box5">
+            
+                <div class="end"><a href="https://in.linkedin.com/">Linkedin</a></div>
+                <div class="end"><a href="https://github.com/">Github</a></div>
+                <div class="end">E-mail</div>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        let moon = document.getElementById("moon");
+
+        window.addEventListener("scroll", () => {
+            let scroll = window.scrollY;
+            moon.style.transform = `translateY(-50%) rotate(${scroll * 0.3}deg)`;
+        });
+        let earth = document.getElementById("earth");
+
+        window.addEventListener("scroll", () => {
+            let scroll = window.scrollY;
+            earth.style.transform = `translateY(-50%) rotate(${scroll * (-0.3)}deg)`;
+        });
+        moon.style.transform = `
+translateY(-50%)
+rotate(${scroll * 0.5}deg)
+scale(${1 + scroll * 0.0005})
+`;
+
+        // --- MOVING STARS GENERATOR ---
+        // This function dynamically creates a seamless, moving starfield
+        function createStarfield(elementId, numberOfStars, size, animationDuration) {
+            const layer = document.getElementById(elementId);
+            let shadows = [];
+
+            // 1. Generate random stars in a 2000x2000px area
+            for (let i = 0; i < numberOfStars; i++) {
+                let x = Math.floor(Math.random() * 2000);
+                let y = Math.floor(Math.random() * 2000);
+                shadows.push(`${x}px ${y}px white`);
+            }
+
+            // 2. Duplicate exactly 2000px below to create a seamless infinite loop
+            let seamlessShadows = [...shadows];
+            for (let i = 0; i < numberOfStars; i++) {
+                let parts = shadows[i].split(' ');
+                let x = parts[0];
+                let y = parseInt(parts[1]) + 2000; // Add 2000px offset
+                seamlessShadows.push(`${x} ${y}px white`);
+            }
+
+            // 3. Apply to the CSS
+            layer.style.width = `${size}px`;
+            layer.style.height = `${size}px`;
+            layer.style.boxShadow = seamlessShadows.join(', ');
+            layer.style.animationDuration = `${animationDuration}s`;
+        }
+
+        // Initialize the two star layers
+        // Fast layer = larger stars, moves faster (foreground)
+        createStarfield('stars-fast', 100, 2, 40);
+
+        // Slow layer = smaller stars, moves slower (background)
+        createStarfield('stars-slow', 200, 1, 80); 
+    </script>
+
+</body>
+
+</html>
