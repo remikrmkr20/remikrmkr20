@@ -1,64 +1,29 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Remi Karmakar</h1>
+<h3 align="center">A B.tech student and tech learner</h3>
 
-<!--
-**remikrmkr20/remikrmkr20** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=remikrmkr20&label=Profile%20views&color=0e75b6&style=flat" alt="remikrmkr20" /> </p>
 
-Here are some ideas to get you started:
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=remikrmkr20" alt="remikrmkr20" /></a> </p>
 
-- 🔭 I’m currently working on ..# Hi there, I'm [Your Name]! 👋
+- 🌱 I’m currently learning **C**
 
-Welcome to my GitHub profile! I am a BTech student passionate about building clean, functional, and visually appealing projects. I love exploring new technologies and am currently focusing on strengthening my core programming fundamentals.
+- 👯 I’m looking to collaborate on **frontend projects**
 
----
+- 👨‍💻 Check my Linkedin [www.linkedin.com/in/remi-karmakar-b8b550317](www.linkedin.com/in/remi-karmakar-b8b550317)
 
-### 🚀 About Me
+- 💬 Ask me about **C,Pyhton,Frontend**
 
-* I am currently pursuing my BTech degree.
-* I am actively learning **C** to dive deep into system-level programming and memory management.
-* I enjoy crafting web experiences using my solid foundation in **HTML** and **CSS**.
-* I am always looking to learn new tools and collaborate on fun projects!
+- 📫 How to reach me **rnkarmakar@gmail.com**
 
----
+- ⚡ Fun fact **⚡when I am not smashing bugs in my code, I am smashing PRs at the gym. My daily motivation runs on two things: syntax and steel. 💻🏋️‍♂️**
 
-### 💻 My Tech Stack
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-Here are the languages and technologies I am currently working with:
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
 
-**Frontend Web:**
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=remikrmkr20&show_icons=true&locale=en&layout=compact" alt="remikrmkr20" /></p>
 
-**Programming Languages:**
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
----
-
-### 🛠️ Featured Project
-
-**[Name of Your Website]**
-A fully responsive website built entirely from scratch. This project helped me solidify my understanding of layout design, semantic HTML, and custom CSS styling.
-> Check it out live here: [Link to your hosted site]
-> View the code: [Link to your repository]
-
----
-
-### 📊 GitHub Stats
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
-
----
-
-### 📫 Let's Connect!
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile-link)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com).
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=remikrmkr20&show_icons=true&locale=en" alt="remikrmkr20" /></p>
